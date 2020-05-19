@@ -2,29 +2,29 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "manifestVersion": "1.5",
   "version": "1.0.0.0",
-  "id": "",
+  "id": "08a2b440-b208-4cd4-9818-1d8580711c2b",
   "packageName": "com.microsoft.scrumstatus",
   "developer": {
     "name": "PwCLabsStrategy",
-    "websiteUrl": "https://github.pwc.com/antoinette-d-biagi/gizmonic",
-    "privacyUrl": "https://github.pwc.com/antoinette-d-biagi/gizmonic",
-    "termsOfUseUrl": "https://github.pwc.com/antoinette-d-biagi/gizmonic"
+    "websiteUrl": "https://github.com/NotoriousBiagi/microsoft-teams-apps-scrumstatus",
+    "privacyUrl": "https://github.com/NotoriousBiagi/microsoft-teams-apps-scrumstatus",
+    "termsOfUseUrl": "https://github.com/NotoriousBiagi/microsoft-teams-apps-scrumstatus"
   },
   "icons": {
     "color": "color.png",
     "outline": "outline.png"
   },
   "name": {
-    "short": "StandupBot"
+    "short": "ScrumBot"
   },
   "description": {
-    "short": "StandupBot helps you get status updates from your team in group chat.",
-    "full": "StandupBot is a simple scrum assistant that will enable users to run asynchronous standup meetings and provide and easy way for the users to share their daily updates."
+    "short": "Gizmonic ScrumBot helps you get status updates from your team in group chat.",
+    "full": "Gizmonic ScrumBot is a simple scrum assistant that will enable users to run asynchronous standup meetings and provide and easy way for the users to share their daily updates."
   },
   "accentColor": "#FFCCD8",
   "bots": [
     {
-      "botId": "",
+      "botId": "08a2b440-b208-4cd4-9818-1d8580711c2b",
       "scopes": [
         "groupchat"
       ],
@@ -54,6 +54,7 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "StandupBotPwCLabsStrategy.azurewebsites.net"
+    "gizmonictuesdaybot.azurewebsites.net",
+    "github.com"
   ]
 }
